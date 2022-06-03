@@ -1,0 +1,30 @@
+{
+  "name": "Rakuten Ad Tool",
+  "description": "Rakuten Ad Tool",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://ad.rms.rakuten.co.jp/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/rakuten16.png",
+      "32": "/images/rakuten32.png",
+      "48": "/images/rakuten48.png",
+      "128": "/images/rakuten128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/rakuten16.png",
+    "32": "/images/rakuten32.png",
+    "48": "/images/rakuten48.png",
+    "128": "/images/rakuten128.png"
+  }
+}
